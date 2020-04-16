@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLRProfilerControl", "CLRProfilerControl\CLRProfilerControl.csproj", "{4A080E01-C48D-4E95-B8E7-280C32BCDAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLRProfiler", "CLRProfiler\CLRProfiler.csproj", "{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProfilerOBJ", "ProfilerOBJ\ProfilerOBJ.vcproj", "{A1BCB61E-359F-46C8-89E1-26CD7E356880}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4A080E01-C48D-4E95-B8E7-280C32BCDAA9}.Debug.ActiveCfg = Debug|.NET
+		{4A080E01-C48D-4E95-B8E7-280C32BCDAA9}.Debug.Build.0 = Debug|.NET
+		{4A080E01-C48D-4E95-B8E7-280C32BCDAA9}.Release.ActiveCfg = Release|.NET
+		{4A080E01-C48D-4E95-B8E7-280C32BCDAA9}.Release.Build.0 = Release|.NET
+		{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}.Debug.ActiveCfg = Debug|.NET
+		{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}.Debug.Build.0 = Debug|.NET
+		{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}.Release.ActiveCfg = Release|.NET
+		{147EF91E-C9E4-4E8E-B5E9-5D99D8DB3769}.Release.Build.0 = Release|.NET
+		{A1BCB61E-359F-46C8-89E1-26CD7E356880}.Debug.ActiveCfg = Debug|Win32
+		{A1BCB61E-359F-46C8-89E1-26CD7E356880}.Debug.Build.0 = Debug|Win32
+		{A1BCB61E-359F-46C8-89E1-26CD7E356880}.Release.ActiveCfg = Release|Win32
+		{A1BCB61E-359F-46C8-89E1-26CD7E356880}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Item:1 = Readme.txt
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

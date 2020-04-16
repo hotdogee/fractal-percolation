@@ -1,0 +1,52 @@
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\bin\Debug\fftwlib.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\bin\Debug\fftwlib.pdb
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\bin\Debug\fftwlib.xml
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\ResolveAssemblyReference.cache
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\fftwlib.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\fftwlib.pdb
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.pdb
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.xml
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3-3-x64.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3-3.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3f-3-x64.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3f-3.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3-3.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3f-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\libfftw3f-3.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.pdb
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Debug\fftwlib.xml
+D:\NTU\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\ResolveAssemblyReference.cache
+D:\NTU\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Debug\fftwlib.pdb
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\libfftw3-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\libfftw3-3.dll
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\libfftw3f-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\libfftw3f-3.dll
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\fftwlib.pdb
+D:\NTU\TPLIN\專案\HabMig2\bin\Debug\fftwlib.xml
+D:\NTU\TPLIN\專案\HabMig2\fftwlib\obj\Debug\ResolveAssemblyReference.cache
+D:\NTU\TPLIN\專案\HabMig2\fftwlib\obj\Debug\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig2\fftwlib\obj\Debug\fftwlib.pdb
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\libfftw3-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\libfftw3-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\libfftw3f-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\libfftw3f-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\fftwlib.pdb
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Debug\fftwlib.xml
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\fftwlib\obj\Debug\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\fftwlib\obj\Debug\fftwlib.pdb
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\fftwlib\obj\Debug\fftwlib.csprojResolveAssemblyReference.cache
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\libfftw3-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\libfftw3-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\libfftw3f-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\libfftw3f-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\fftwlib.pdb
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Debug\fftwlib.xml
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\fftwlib\obj\Debug\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\fftwlib\obj\Debug\fftwlib.pdb

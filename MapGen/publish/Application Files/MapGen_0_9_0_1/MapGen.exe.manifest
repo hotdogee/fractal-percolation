@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="MapGen.exe" version="0.9.0.1" publicKeyToken="f2e3c31947d67db4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MapGen" version="1.0.3854.27543" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MapGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fftwlib.dll" size="20480">
+      <assemblyIdentity name="fftwlib" version="1.0.2950.40690" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>RDe4YpuwkDEZ5vsCvqv6z4rTSK0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MapGen.exe" size="81920">
+      <assemblyIdentity name="MapGen" version="1.0.3854.27543" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>z+No3py2Vo4e9ckxC0GM76sjsag=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>GM7OUb4teOfGVJg9lxgqFUWHPYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MapGen.exe.config" size="145">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uBjnHD0MaM0l0kIAQG80MoTWRuk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HOTDOG-VAIOSZ\林翰" issuerKeyHash="000f13a5d51b6915f225a31e3593ad5ec6caba4b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>SV77SV1Vp4+133ah3WDTnknPIok=</DigestValue></Reference></SignedInfo><SignatureValue>LluAoMccFY5SwOdOaEpBIUt3AMRxi5ZRI875YUTaEg5YFCrX/csZjo/qzaWC3L2h0EKE95XRf6QRTa1xHZRd1F/spGCKx+H7tY0ScoqQ+gdJ9KHi8mOeLJtZilJvVsDW+FxWo1qTnkQwceUk1qsJ8+AjqnlHSG9on1N5JvFftSM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2wo/mdc0V4kkONNtOYrHDIv4rTcxw4RMVSyfU+Q3DgDeBYoF/ur19brA10YycBT5HH8sCRACaOUnoPjpylvagwH6vOHHjhw3kx65QpcD8FURtn0mGpzSfOtwUB+NE0SVH2gUNRGpvELxbqhmD3Phm06j4pG5Rw3F5VGy1ilNHXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8922cf499ed360dda176dfb58fa7555d49fb5e49" Description="" Url=""><as:assemblyIdentity name="MapGen.exe" version="0.9.0.1" publicKeyToken="f2e3c31947d67db4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOTDOG-VAIOSZ\林翰</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bNtrk96GARr0jshzuzX4QTmuUcc=</DigestValue></Reference></SignedInfo><SignatureValue>ACuR00aOUIXV+tcQeURrz7iMRuobz04xRYspk6h3zMrEdpK6LRte79EWiHj30cu/SKiir6jLJpXecnKTWBnmrsqIHg4KE6WePM4zoNCodFfxFhAt9RvNxHLLxvRuJFBBWc5OrEQlnNAB9WHbRMkGSrVVIWmd9IwcAkQWErfUpDg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2wo/mdc0V4kkONNtOYrHDIv4rTcxw4RMVSyfU+Q3DgDeBYoF/ur19brA10YycBT5HH8sCRACaOUnoPjpylvagwH6vOHHjhw3kx65QpcD8FURtn0mGpzSfOtwUB+NE0SVH2gUNRGpvELxbqhmD3Phm06j4pG5Rw3F5VGy1ilNHXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQeE4tgdqQE6FPKjrberLjCDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAASABPAFQARABPAEcALQBWAEEASQBPAFMAWgBcZ5d/8DAeFw0xMDA3MjEwNzE4MDRaFw0xMTA3MjExMzE4MDRaMCsxKTAnBgNVBAMeIABIAE8AVABEAE8ARwAtAFYAQQBJAE8AUwBaAFxnl3/wMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbCj+Z1zRXiSQ40205iscMi/itNzHDhExVLJ9T5DcOAN4FigX+6vX1usDXRjJwFPkcfywJEAJo5Seg+OnKW9qDAfq84ceOHDeTHrlClwPwVRG2fSYanNJ863BQH40TRJUfaBQ1Eam8QvFuqGYPc+GbTqPikblHDcXlUbLWKU0deQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABQSPeCMI55PnfyieD5YoST/o+J0YH/TLU+LanxXiydQTX2RMuzM6jQubdCu+Ar+vdbfl4BP1cNDAx/YU7Jul/IPcvcwL0ly9pkWcR1xRGDATnjs+ZHkqDVm1zs62fJNTGVvLDoSoV1z6oShRLMs72FbJRRpbw2Bb0D6s8p+o/dE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

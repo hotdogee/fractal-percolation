@@ -1,0 +1,233 @@
+<report version='3' time='2010/7/20 上午 02:45:21' utc='634151619213780000' clr='2.0.50727.4200' profiler='3.3.120.0'>
+<header><filename>profile-MapGen-20100720-024521.eqlog</filename><origin>EQATEC Profiler remote</origin></header>
+<summary>
+<total calls='50' totaltime='0' handle='3' name='fftwlib.fftw.malloc' param='System.Int32'/>
+<total calls='50' totaltime='64' handle='4' name='fftwlib.fftw.free' param='System.IntPtr'/>
+<total calls='25' totaltime='0' handle='5' name='fftwlib.fftw.destroy_plan' param='System.IntPtr'/>
+<total calls='25' totaltime='1992' handle='6' name='fftwlib.fftw.execute' param='System.IntPtr'/>
+<total calls='25' totaltime='6' handle='7' name='fftwlib.fftw.dft_2d' param='System.Int32,System.Int32,System.IntPtr,System.IntPtr,fftwlib.fftw_direction,fftwlib.fftw_flags'/>
+<total calls='1' totaltime='0' handle='24' name='MapGen.MapGeneratorInput..ctor' param=''/>
+<total calls='1' totaltime='0' handle='28' name='MapGen.MapGeneratorInput..ctor' param='System.Int32,System.Int32,System.Double,System.Int32,System.Double'/>
+<total calls='2' totaltime='0' handle='29' name='MapGen.MapGeneratorInput.set_Width' param='System.Int32'/>
+<total calls='2' totaltime='0' handle='30' name='MapGen.MapGeneratorInput.set_Height' param='System.Int32'/>
+<total calls='2' totaltime='0' handle='31' name='MapGen.MapGeneratorInput.set_FillRate' param='System.Double'/>
+<total calls='1' totaltime='15' handle='37' name='MapGen.MapGenerator..ctor' param='MapGen.MapGeneratorInput'/>
+<total calls='1' totaltime='0' handle='39' name='MapGen.MapGenerator.Finalize' param=''/>
+<total calls='25' totaltime='870' handle='54' name='MapGen.MapGenerator.kthSmallest' param='System.Double[],System.Int32'/>
+<total calls='25' totaltime='24243' handle='55' name='MapGen.MapGenerator.GenerateSpectralSynthesisFractioalBrownianMotionMap' param=''/>
+<total calls='25' totaltime='24243' handle='60' name='MapGen.MapGenerator._generateSpectralSynthesisFractioalBrownianMotionMap' param=''/>
+<total calls='25' totaltime='24243' handle='61' name='MapGen.MapGenerator.Generate' param=''/>
+<total calls='0' totaltime='0' handle='70' name='MapGen.FormMapGen.Main' param='' active='1'/>
+<total calls='2' totaltime='0' handle='75' name='MapGen.FormControl.textBoxNumOnly_KeyPress' param='System.Object,System.Windows.Forms.KeyPressEventArgs'/>
+<total calls='2' totaltime='0' handle='76' name='MapGen.FormControl.textBoxNumOnly_Validating' param='System.Object,System.ComponentModel.CancelEventArgs'/>
+<total calls='1' totaltime='58' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<total calls='1' totaltime='0' handle='123' name='MapGen.GaussianRNG..ctor' param=''/>
+<total calls='12500025' totaltime='2872' handle='124' name='MapGen.GaussianRNG.Next' param=''/>
+<total calls='1' totaltime='15' handle='127' name='MapGen.FractionalBrownianMotion..ctor' param='System.Int32,System.Int32,System.Double'/>
+<total calls='1' totaltime='0' handle='128' name='MapGen.FractionalBrownianMotion.set_Width' param='System.Int32'/>
+<total calls='1' totaltime='0' handle='129' name='MapGen.FractionalBrownianMotion.set_Height' param='System.Int32'/>
+<total calls='25' totaltime='21269' handle='132' name='MapGen.FractionalBrownianMotion.SpectralSynthesis2D' param=''/>
+<total calls='25' totaltime='21269' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+<total calls='1' totaltime='3' handle='136' name='MapGen.FormSearchResults..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+<total calls='1' totaltime='9' handle='137' name='MapGen.FormSearchResults.Dispose' param='System.Boolean'/>
+<total calls='1' totaltime='0' handle='138' name='MapGen.FormSearchResults.InitializeComponent' param=''/>
+<total calls='1155' totaltime='2296' handle='139' name='MapGen.FormSearchResults.timerUpdateDisplay_Tick' param='System.Object,System.EventArgs'/>
+<total calls='2' totaltime='0' handle='141' name='MapGen.FormSearchResults.Stdev' param='MapGen.Result[]'/>
+<total calls='1' totaltime='0' handle='142' name='MapGen.FormSearchResults.FormSearchResults_FormClosing' param='System.Object,System.Windows.Forms.FormClosingEventArgs'/>
+<total calls='1' totaltime='0' handle='143' name='MapGen.SearchTaskInput..ctor' param=''/>
+<total calls='2' totaltime='0' handle='145' name='MapGen.SearchTaskInput.set_OuterIterations' param='System.Int32'/>
+<total calls='2' totaltime='0' handle='146' name='MapGen.SearchTaskInput.set_InnerIterations' param='System.Int32'/>
+<total calls='2' totaltime='0' handle='147' name='MapGen.SearchTaskInput.set_ThreadNum' param='System.Int32'/>
+<total calls='5' totaltime='0' handle='148' name='MapGen.Result..ctor' param=''/>
+<total calls='1' totaltime='0' handle='151' name='MapGen.Task..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+<total calls='1' totaltime='1' handle='153' name='MapGen.Task.Start' param=''/>
+<total calls='1' totaltime='0' handle='154' name='MapGen.Task.Abort' param=''/>
+<total calls='1' totaltime='126732' handle='158' name='MapGen.Task._doOne' param=''/>
+<total calls='1' totaltime='0' handle='159' name='MapGen.PathSearcherInput..ctor' param=''/>
+<total calls='1' totaltime='0' handle='162' name='MapGen.PathSearcherInput..ctor' param='System.Int32,System.Int32,System.Int32'/>
+<total calls='2' totaltime='0' handle='163' name='MapGen.PathSearcherInput.set_Jump' param='System.Int32'/>
+<total calls='1' totaltime='15' handle='165' name='MapGen.PathSearcher..ctor' param='MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+<total calls='1' totaltime='0' handle='166' name='MapGen.PathSearcher.Finalize' param=''/>
+<total calls='25' totaltime='126717' handle='167' name='MapGen.PathSearcher.RunOne' param=''/>
+<total calls='42' totaltime='76062' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+<total calls='25000000' totaltime='3130' handle='170' name='MapGen.Node..ctor' param=''/>
+<total calls='42' totaltime='0' handle='171' name='MapGen.IaxisComparer..ctor' param=''/>
+<total calls='58929947' totaltime='9815' handle='172' name='MapGen.IaxisComparer.Compare' param='System.Object,System.Object'/>
+<total calls='42' totaltime='0' handle='178' name='MapGen.BinaryHeapPriorityQueue..ctor' param='System.Collections.IComparer,System.Int32'/>
+<total calls='2591537' totaltime='3776' handle='182' name='MapGen.BinaryHeapPriorityQueue.Enqueue' param='System.Object'/>
+<total calls='2259561' totaltime='49891' handle='183' name='MapGen.BinaryHeapPriorityQueue.Dequeue' param=''/>
+<total calls='2259583' totaltime='221' handle='187' name='MapGen.BinaryHeapPriorityQueue.get_Count' param=''/>
+</summary>
+<calls>
+<method handle='3' name='fftwlib.fftw.malloc' param='System.Int32'>
+<called-by calls='50' totaltime='0' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='4' name='fftwlib.fftw.free' param='System.IntPtr'>
+<called-by calls='50' totaltime='64' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='5' name='fftwlib.fftw.destroy_plan' param='System.IntPtr'>
+<called-by calls='25' totaltime='0' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='6' name='fftwlib.fftw.execute' param='System.IntPtr'>
+<called-by calls='25' totaltime='1992' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='7' name='fftwlib.fftw.dft_2d' param='System.Int32,System.Int32,System.IntPtr,System.IntPtr,fftwlib.fftw_direction,fftwlib.fftw_flags'>
+<called-by calls='25' totaltime='6' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='24' name='MapGen.MapGeneratorInput..ctor' param=''>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+</method>
+<method handle='28' name='MapGen.MapGeneratorInput..ctor' param='System.Int32,System.Int32,System.Double,System.Int32,System.Double'>
+<called-by calls='1' totaltime='0' handle='24' name='MapGen.MapGeneratorInput..ctor' param=''/>
+</method>
+<method handle='29' name='MapGen.MapGeneratorInput.set_Width' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='28' name='MapGen.MapGeneratorInput..ctor' param='System.Int32,System.Int32,System.Double,System.Int32,System.Double'/>
+</method>
+<method handle='30' name='MapGen.MapGeneratorInput.set_Height' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='28' name='MapGen.MapGeneratorInput..ctor' param='System.Int32,System.Int32,System.Double,System.Int32,System.Double'/>
+</method>
+<method handle='31' name='MapGen.MapGeneratorInput.set_FillRate' param='System.Double'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='28' name='MapGen.MapGeneratorInput..ctor' param='System.Int32,System.Int32,System.Double,System.Int32,System.Double'/>
+</method>
+<method handle='37' name='MapGen.MapGenerator..ctor' param='MapGen.MapGeneratorInput'>
+<called-by calls='1' totaltime='15' handle='165' name='MapGen.PathSearcher..ctor' param='MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+</method>
+<method handle='39' name='MapGen.MapGenerator.Finalize' param=''>
+</method>
+<method handle='54' name='MapGen.MapGenerator.kthSmallest' param='System.Double[],System.Int32'>
+<called-by calls='25' totaltime='870' handle='60' name='MapGen.MapGenerator._generateSpectralSynthesisFractioalBrownianMotionMap' param=''/>
+</method>
+<method handle='55' name='MapGen.MapGenerator.GenerateSpectralSynthesisFractioalBrownianMotionMap' param=''>
+<called-by calls='25' totaltime='24243' handle='61' name='MapGen.MapGenerator.Generate' param=''/>
+</method>
+<method handle='60' name='MapGen.MapGenerator._generateSpectralSynthesisFractioalBrownianMotionMap' param=''>
+<called-by calls='25' totaltime='24243' handle='55' name='MapGen.MapGenerator.GenerateSpectralSynthesisFractioalBrownianMotionMap' param=''/>
+</method>
+<method handle='61' name='MapGen.MapGenerator.Generate' param=''>
+<called-by calls='25' totaltime='24243' handle='167' name='MapGen.PathSearcher.RunOne' param=''/>
+</method>
+<method handle='75' name='MapGen.FormControl.textBoxNumOnly_KeyPress' param='System.Object,System.Windows.Forms.KeyPressEventArgs'>
+<called-by calls='2' totaltime='0' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='76' name='MapGen.FormControl.textBoxNumOnly_Validating' param='System.Object,System.ComponentModel.CancelEventArgs'>
+<called-by calls='2' totaltime='0' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'>
+<called-by calls='1' totaltime='58' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='123' name='MapGen.GaussianRNG..ctor' param=''>
+<called-by calls='1' totaltime='0' handle='127' name='MapGen.FractionalBrownianMotion..ctor' param='System.Int32,System.Int32,System.Double'/>
+</method>
+<method handle='124' name='MapGen.GaussianRNG.Next' param=''>
+<called-by calls='12500025' totaltime='2872' handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''/>
+</method>
+<method handle='127' name='MapGen.FractionalBrownianMotion..ctor' param='System.Int32,System.Int32,System.Double'>
+<called-by calls='1' totaltime='15' handle='37' name='MapGen.MapGenerator..ctor' param='MapGen.MapGeneratorInput'/>
+</method>
+<method handle='128' name='MapGen.FractionalBrownianMotion.set_Width' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='127' name='MapGen.FractionalBrownianMotion..ctor' param='System.Int32,System.Int32,System.Double'/>
+</method>
+<method handle='129' name='MapGen.FractionalBrownianMotion.set_Height' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='127' name='MapGen.FractionalBrownianMotion..ctor' param='System.Int32,System.Int32,System.Double'/>
+</method>
+<method handle='132' name='MapGen.FractionalBrownianMotion.SpectralSynthesis2D' param=''>
+<called-by calls='25' totaltime='21269' handle='60' name='MapGen.MapGenerator._generateSpectralSynthesisFractioalBrownianMotionMap' param=''/>
+</method>
+<method handle='135' name='MapGen.FractionalBrownianMotion._spectralSynthesis2D_FFTW' param=''>
+<called-by calls='25' totaltime='21269' handle='132' name='MapGen.FractionalBrownianMotion.SpectralSynthesis2D' param=''/>
+</method>
+<method handle='136' name='MapGen.FormSearchResults..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'>
+<called-by calls='1' totaltime='3' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+</method>
+<method handle='137' name='MapGen.FormSearchResults.Dispose' param='System.Boolean'>
+<called-by calls='1' totaltime='9' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='138' name='MapGen.FormSearchResults.InitializeComponent' param=''>
+<called-by calls='1' totaltime='0' handle='136' name='MapGen.FormSearchResults..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+</method>
+<method handle='139' name='MapGen.FormSearchResults.timerUpdateDisplay_Tick' param='System.Object,System.EventArgs'>
+<called-by calls='1155' totaltime='2296' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='141' name='MapGen.FormSearchResults.Stdev' param='MapGen.Result[]'>
+<called-by calls='2' totaltime='0' handle='139' name='MapGen.FormSearchResults.timerUpdateDisplay_Tick' param='System.Object,System.EventArgs'/>
+</method>
+<method handle='142' name='MapGen.FormSearchResults.FormSearchResults_FormClosing' param='System.Object,System.Windows.Forms.FormClosingEventArgs'>
+<called-by calls='1' totaltime='0' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='143' name='MapGen.SearchTaskInput..ctor' param=''>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+</method>
+<method handle='145' name='MapGen.SearchTaskInput.set_OuterIterations' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='143' name='MapGen.SearchTaskInput..ctor' param=''/>
+</method>
+<method handle='146' name='MapGen.SearchTaskInput.set_InnerIterations' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='143' name='MapGen.SearchTaskInput..ctor' param=''/>
+</method>
+<method handle='147' name='MapGen.SearchTaskInput.set_ThreadNum' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='143' name='MapGen.SearchTaskInput..ctor' param=''/>
+</method>
+<method handle='148' name='MapGen.Result..ctor' param=''>
+<called-by calls='5' totaltime='0' handle='153' name='MapGen.Task.Start' param=''/>
+</method>
+<method handle='151' name='MapGen.Task..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'>
+<called-by calls='1' totaltime='0' handle='136' name='MapGen.FormSearchResults..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+</method>
+<method handle='153' name='MapGen.Task.Start' param=''>
+<called-by calls='1' totaltime='1' handle='136' name='MapGen.FormSearchResults..ctor' param='MapGen.SearchTaskInput,MapGen.PathSearcherInput,MapGen.MapGeneratorInput'/>
+</method>
+<method handle='154' name='MapGen.Task.Abort' param=''>
+<called-by calls='1' totaltime='0' handle='142' name='MapGen.FormSearchResults.FormSearchResults_FormClosing' param='System.Object,System.Windows.Forms.FormClosingEventArgs'/>
+</method>
+<method handle='158' name='MapGen.Task._doOne' param=''>
+</method>
+<method handle='159' name='MapGen.PathSearcherInput..ctor' param=''>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+</method>
+<method handle='162' name='MapGen.PathSearcherInput..ctor' param='System.Int32,System.Int32,System.Int32'>
+<called-by calls='1' totaltime='0' handle='159' name='MapGen.PathSearcherInput..ctor' param=''/>
+</method>
+<method handle='163' name='MapGen.PathSearcherInput.set_Jump' param='System.Int32'>
+<called-by calls='1' totaltime='0' handle='85' name='MapGen.FormControl.buttonRunSearch_Click' param='System.Object,System.EventArgs'/>
+<called-by calls='1' totaltime='0' handle='162' name='MapGen.PathSearcherInput..ctor' param='System.Int32,System.Int32,System.Int32'/>
+</method>
+<method handle='165' name='MapGen.PathSearcher..ctor' param='MapGen.PathSearcherInput,MapGen.MapGeneratorInput'>
+<called-by calls='1' totaltime='15' handle='158' name='MapGen.Task._doOne' param=''/>
+</method>
+<method handle='166' name='MapGen.PathSearcher.Finalize' param=''>
+</method>
+<method handle='167' name='MapGen.PathSearcher.RunOne' param=''>
+<called-by calls='25' totaltime='126717' handle='158' name='MapGen.Task._doOne' param=''/>
+</method>
+<method handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'>
+<called-by calls='42' totaltime='76062' handle='167' name='MapGen.PathSearcher.RunOne' param=''/>
+</method>
+<method handle='170' name='MapGen.Node..ctor' param=''>
+<called-by calls='25000000' totaltime='3130' handle='167' name='MapGen.PathSearcher.RunOne' param=''/>
+</method>
+<method handle='171' name='MapGen.IaxisComparer..ctor' param=''>
+<called-by calls='42' totaltime='0' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+</method>
+<method handle='172' name='MapGen.IaxisComparer.Compare' param='System.Object,System.Object'>
+<called-by calls='55246368' totaltime='9108' handle='183' name='MapGen.BinaryHeapPriorityQueue.Dequeue' param=''/>
+<called-by calls='3683579' totaltime='707' handle='182' name='MapGen.BinaryHeapPriorityQueue.Enqueue' param='System.Object'/>
+</method>
+<method handle='178' name='MapGen.BinaryHeapPriorityQueue..ctor' param='System.Collections.IComparer,System.Int32'>
+<called-by calls='42' totaltime='0' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+</method>
+<method handle='182' name='MapGen.BinaryHeapPriorityQueue.Enqueue' param='System.Object'>
+<called-by calls='2591537' totaltime='3776' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+</method>
+<method handle='183' name='MapGen.BinaryHeapPriorityQueue.Dequeue' param=''>
+<called-by calls='2259561' totaltime='49891' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+</method>
+<method handle='187' name='MapGen.BinaryHeapPriorityQueue.get_Count' param=''>
+<called-by calls='2259583' totaltime='221' handle='169' name='MapGen.PathSearcher.PriorityQueueSearch' param='MapGen.Node'/>
+</method>
+</calls>
+</report>

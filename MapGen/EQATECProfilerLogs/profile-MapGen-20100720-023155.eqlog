@@ -1,0 +1,24 @@
+<report version='3' time='2010/7/20 上午 02:31:55' utc='634151611154370000' clr='2.0.50727.4200' profiler='3.3.120.0'>
+<header><filename>profile-MapGen-20100720-023155.eqlog</filename><origin>EQATEC Profiler remote</origin></header>
+<summary>
+<total calls='1' totaltime='228' handle='67' name='MapGen.FormMapGen..ctor' param=''/>
+<total calls='1' totaltime='22' handle='69' name='MapGen.FormMapGen.InitializeComponent' param=''/>
+<total calls='0' totaltime='0' handle='70' name='MapGen.FormMapGen.Main' param='' active='1'/>
+<total calls='1' totaltime='29' handle='71' name='MapGen.FormControl..ctor' param=''/>
+<total calls='1' totaltime='10' handle='73' name='MapGen.FormControl.InitializeComponent' param=''/>
+</summary>
+<calls>
+<method handle='67' name='MapGen.FormMapGen..ctor' param=''>
+<called-by calls='1' totaltime='228' handle='70' name='MapGen.FormMapGen.Main' param=''/>
+</method>
+<method handle='69' name='MapGen.FormMapGen.InitializeComponent' param=''>
+<called-by calls='1' totaltime='22' handle='67' name='MapGen.FormMapGen..ctor' param=''/>
+</method>
+<method handle='71' name='MapGen.FormControl..ctor' param=''>
+<called-by calls='1' totaltime='29' handle='67' name='MapGen.FormMapGen..ctor' param=''/>
+</method>
+<method handle='73' name='MapGen.FormControl.InitializeComponent' param=''>
+<called-by calls='1' totaltime='10' handle='71' name='MapGen.FormControl..ctor' param=''/>
+</method>
+</calls>
+</report>

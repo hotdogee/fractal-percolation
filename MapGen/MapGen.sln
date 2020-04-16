@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapGen", "MapGen.csproj", "{98E569F7-D323-4920-8B72-E80DC3F73581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fftwlib", "fftwlib\fftwlib.csproj", "{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Release 64bit|Any CPU = Release 64bit|Any CPU
+		Release 64bit|Mixed Platforms = Release 64bit|Mixed Platforms
+		Release 64bit|x64 = Release 64bit|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Debug|x64.Build.0 = Debug|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|Any CPU.ActiveCfg = Release 64bit|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|Any CPU.Build.0 = Release 64bit|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|Mixed Platforms.ActiveCfg = Release 64bit|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|Mixed Platforms.Build.0 = Release 64bit|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|x64.ActiveCfg = Release 64bit|x64
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release 64bit|x64.Build.0 = Release 64bit|x64
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|x64.ActiveCfg = Release|Any CPU
+		{98E569F7-D323-4920-8B72-E80DC3F73581}.Release|x64.Build.0 = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release 64bit|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release 64bit|Any CPU.Build.0 = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release 64bit|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release 64bit|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release 64bit|x64.ActiveCfg = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BEA875B8-E28A-49C5-8E7E-6512DA65F7E1}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MapGen">
+</Property><Property Name="Solution File" Value="C:\專案\Path\Path working NET 2010\MapGen.sln">
+</Property><Property Name="User Options File" Value="C:\專案\Path\Path working NET 2010\MapGen.suo">
+</Property><Property Name="Date" Value="2010年7月19日">
+</Property><Property Name="Time" Value="下午 15:17">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MapGen.sln" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\MapGen.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MapGen.suo" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\MapGen.suo">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="MapGen.csproj" Description="Project file successfully backed up as C:\專案\Path\Path working NET 2010\Backup\MapGen.csproj">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="MapGen.csproj.user" Description="Project user file successfully backed up as C:\專案\Path\Path working NET 2010\Backup\MapGen.csproj.user">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="ClassFractal.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\ClassFractal.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="ClassImageGenerator.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\ClassImageGenerator.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="ClassMapGenerator.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\ClassMapGenerator.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="ClassPathSearcher.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\ClassPathSearcher.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="ClassTask.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\ClassTask.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormControl.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormControl.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormDebug.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormDebug.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormDisplay.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormDisplay.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormMapGen.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormMapGen.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormSearchResults.cs" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormSearchResults.cs">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="app.config" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="App.ico" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormControl.resx" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormControl.resx">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormDebug.resx" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormDebug.resx">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormDisplay.resx" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormDisplay.resx">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormMapGen.resx" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormMapGen.resx">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="FormSearchResults.resx" Description="File successfully backed up as C:\專案\Path\Path working NET 2010\Backup\FormSearchResults.resx">
+</Event><Event ErrorLevel="1" Project="MapGen" Source="MapGen.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="MapGen.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MapGen" Source="MapGen.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MapGen.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MapGen.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MapGen" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="MapGen" Source="app.config" Description="Converted">
+</Event></UpgradeLog>

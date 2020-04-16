@@ -1,0 +1,26 @@
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3-3-x64.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3-3.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3f-3-x64.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3f-3.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\bin\Release\fftwlib.dll
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Release\ResolveAssemblyReference.cache
+D:\NTU課程\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Release\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3-3.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3f-3-x64.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Release\libfftw3f-3.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\bin\Release\fftwlib.dll
+D:\NTU\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Release\ResolveAssemblyReference.cache
+D:\NTU\TPLIN\專案\HabMig\HabMig\fftwlib\obj\Release\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Release\libfftw3-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Release\libfftw3-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Release\libfftw3f-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Release\libfftw3f-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\bin\Release\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010\fftwlib\obj\Release\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Release\libfftw3-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Release\libfftw3-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Release\libfftw3f-3-x64.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Release\libfftw3f-3.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\bin\Release\fftwlib.dll
+X:\i5-760-backup-20130404\D-2TB_RAID\NTU\TPLIN\專案\Path\Path working NET 2010-1.2\fftwlib\obj\Release\fftwlib.dll
