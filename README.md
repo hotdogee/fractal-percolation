@@ -6,7 +6,7 @@ Percolation probability exploration in randomly generated fractal maps
 
 * C#
 * Windows.Forms
-* fftw
+* FFTW
 
 # Spectrally synthesized fractal motion in two dimensions
 
