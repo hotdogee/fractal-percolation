@@ -6,7 +6,7 @@ Percolation probability exploration in randomly generated fractal maps
 
 * C#
 * Windows.Forms
-* fftwlib
+* fftw
 
 # Spectrally synthesized fractal motion in two dimensions
 
@@ -33,6 +33,10 @@ The method uses Fractional Brownian Motion (fBM) noise to generate a matrix of p
     * 8 Way
   * Jump
 * Multi-threaded task loop manager
+
+# Screenshots
+
+![Path 0.8](screenshots/Path0.8.jpg?raw=true "Path 0.8")
 
 # ChangeLog
 
